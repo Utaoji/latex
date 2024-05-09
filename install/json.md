@@ -11,3 +11,7 @@
 
 ここで、WSL上でのVSCodeの設定をいじることができます。この画面上で操作してもよいのですが、コピペした方が楽なので画像の赤い丸で囲った場所をクリックしてください
 ![settings.jsonを開く](settings.png)
+
+すると何やら書き込める場所が表示されます。
+[ただしい高速LaTeX論](https://qiita.com/JyJyJcr/items/69769c88eea9d0dae152#latex-workshop%E3%81%AE%E8%A8%AD%E5%AE%9A)
+に書いてあるコードをコピペして保存すれば完了です
