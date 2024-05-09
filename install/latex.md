@@ -66,3 +66,5 @@ $ sudo /usr/local/texlive/????/bin/*/tlmgr path add
 $ sudo tlmgr update --self --all
 ```
 これで完了です。
+
+[VSCodeのインストールおよび準備](VSCode.md)へ進みましょう
