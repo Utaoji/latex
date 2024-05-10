@@ -18,7 +18,8 @@ Windows上で行う作業です。すでにVScodeを使っている人はスキ�
 >Windowsの方でもこちらと同じ設定にするか、自分で書き換えるか、あきらめるかしてください
 
 [latexmkrcの設定](./install/latexmkrc.md)
-[setting.jsonの設定](./install/settings.md)
+
+[setting.jsonの設定](./install/json.md)
 ### さらに高速化（任意）
 [subfilesを用いてファイル自体を短く](./install/subfiles.md)
 
