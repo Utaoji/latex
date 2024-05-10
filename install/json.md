@@ -51,64 +51,30 @@
     "latex-workshop.latex.autoBuild.run": "onSave",
     "latex-workshop.synctex.afterBuild.enabled": true,
 
-    //一般設定(日本語文書用)
-    //一行が長い場合折り返す（alt + Z で切り替え可能。折り返したくない場合は"off"にしてください）
-    "editor.wordWrap": "on",
-    //約物（。、や括弧など）のみで折り返したい場合、下のコメントアウトを消してください
-    //"editor.wordBreak": "keepAll",
-    
-    //区切り文字を指定
-    "editor.wordSeparators": "./\\()\"'-:,.;<>~!@#$%^&*|+=[]{}`~?゠・，、；：！？．。‘’“”（）｟｠［］〚〛〔〕｛｝〈〉《》「」『』【】〖〗〝〟がてでとにのはへもやを",
+    //一般設定(日本語のlatex文書用)
+    "[latex]": {
+        //一行が長い場合折り返す（alt + Z で切り替え可能。折り返したくない場合は"off"にしてください）
+        "editor.wordWrap": "on",
+        //約物（。、や括弧など）のみで折り返したい場合、下のコメントアウトを消してください
+        //"editor.wordBreak": "keepAll",
+        
+        //区切り文字を指定
+        "editor.wordSeparators": "./\\()\"'-:,.;<>~!@#$%^&*|+=[]{}`~?゠・，、；：！？．。‘’“”（）｟｠［］〚〛〔〕｛｝〈〉《》「」『』【】〖〗〝〟がてでとにのはへもやを",
 
-    //半角スペースを除く空白文字（目に見えない文字）にハイライト
-    "editor.unicodeHighlight.invisibleCharacters": true,
+        //半角スペースを除く空白文字（目に見えない文字）にハイライト
+        "editor.unicodeHighlight.invisibleCharacters": true,
 
-    //対応する括弧に色付け(半角の括弧はデフォルトで色付けされる)
-    "editor.bracketPairColorization.enabled": true,
-    "editor.language.colorizedBracketPairs": [
-    ["‘", "’"],
-    ["“", "”"],
-    ["(", ")"],
-    ["（", "）"],
-    ["｟", "｠"],
-    ["[", "]"],
-    ["［", "］"],
-    ["〚", "〛"],
-    ["〔", "〕"],
-    ["{", "}"],
-    ["｛", "｝"],
-    ["〈", "〉"],
-    ["《", "》"],
-    ["「", "」"],
-    ["『", "』"],
-    ["【", "】"],
-    ["〖", "〗"],
-    ["〝", "〟"],
-  ],
+        //対応する括弧に色付け(半角の括弧はデフォルトで色付けされる)
+        "editor.bracketPairColorization.enabled": true,
+        "editor.language.colorizedBracketPairs": [
+            ["‘", "’"], ["“", "”"], ["(", ")"], ["（", "）"], ["｟", "｠"], ["[", "]"], ["［", "］"], ["〚", "〛"], ["〔", "〕"], ["{", "}"], ["｛", "｝"], ["〈", "〉"], ["《", "》"], ["「", "」"], ["『", "』"], ["【", "】"], ["〖", "〗"], ["〝", "〟"],
+        ],
 
-  //下記の記号にハイライトがつかないようにする（全角カンマ『，』などをハイライトしたい場合はそれぞれの行を削除すること）
-  "editor.unicodeHighlight.ambiguousCharacters": true,
-  "editor.unicodeHighlight.allowedCharacters": {
-    "゠": true,
-    "，": true,
-    "；": true,
-    "：": true,
-    "！": true,
-    "？": true,
-    "．": true,
-    "‘": true,
-    "’": true,
-    "（": true,
-    "）": true,
-    "［": true,
-    "］": true,
-    "｛": true,
-    "｝": true,
-    "〔": true,
-    "〕": true,
-    "＜": true,
-    "＞": true,
-    "ノ": true,
-  },
+        //下記の記号にハイライトがつかないようにする（全角カンマ『，』などをハイライトしたい場合はその部分を削除すること）
+        "editor.unicodeHighlight.ambiguousCharacters": true,
+        "editor.unicodeHighlight.allowedCharacters": {
+            "゠": true, "，": true, "；": true, "：": true, "！": true, "？": true, "．": true, "‘": true, "’": true, "（": true, "）": true, "［": true, "］": true, "｛": true, "｝": true, "〔": true, "〕": true, "＜": true, "＞": true, "ノ": true,
+        },
+    }
 }
 ```
