@@ -26,24 +26,28 @@
 ちなみに、下記にある私の設定では、参考元から少しいじってます。特に、後半にはlatex関係なく日本語の文章のための設定が加わっています（『一般設定』以下の部分）
 ```
 {
+    "editor.formatOnSave": true,
+    // ファイル保存時の実行「レシピ」
     "latex-workshop.latex.recipe.default": "latexmk",
     "latex-workshop.latex.recipes": [
         {
+            // latexmkを叩くだけのレシピ
             "name": "latexmk",
             "tools": ["latexmk"]
         }
     ],
+    // レシピに使われるパーツ
     "latex-workshop.latex.tools": [
         {
             "name": "latexmk",
             "command": "latexmk",
             "args": [
                 "%DOC%",
-                "-silent",//ログをすべて表示させたい場合は不要
-            ],
+                "-silent" //ログをすべて表示させたい場合は不要
+            ]
         }
     ],
-    // 任意設定(latex用)
+    // あとはお好みで
     "latex-workshop.intellisense.package.enabled": true,
     "latex-workshop.latex.outDir": "",
     "latex-workshop.view.pdf.viewer": "tab",
@@ -51,13 +55,13 @@
     "latex-workshop.latex.autoBuild.run": "onSave",
     "latex-workshop.synctex.afterBuild.enabled": true,
 
-    //一般設定(日本語のlatex文書用)
+    //一般設定
     "[latex]": {
         //一行が長い場合折り返す（alt + Z で切り替え可能。折り返したくない場合は"off"にしてください）
         "editor.wordWrap": "on",
         //約物（。、や括弧など）のみで折り返したい場合、下のコメントアウトを消してください
         //"editor.wordBreak": "keepAll",
-        
+
         //区切り文字を指定
         "editor.wordSeparators": "./\\()\"'-:,.;<>~!@#$%^&*|+=[]{}`~?゠・，、；：！？．。‘’“”（）｟｠［］〚〛〔〕｛｝〈〉《》「」『』【】〖〗〝〟がてでとにのはへもやを",
 
@@ -67,14 +71,49 @@
         //対応する括弧に色付け(半角の括弧はデフォルトで色付けされる)
         "editor.bracketPairColorization.enabled": true,
         "editor.language.colorizedBracketPairs": [
-            ["‘", "’"], ["“", "”"], ["(", ")"], ["（", "）"], ["｟", "｠"], ["[", "]"], ["［", "］"], ["〚", "〛"], ["〔", "〕"], ["{", "}"], ["｛", "｝"], ["〈", "〉"], ["《", "》"], ["「", "」"], ["『", "』"], ["【", "】"], ["〖", "〗"], ["〝", "〟"],
+            ["‘", "’"],
+            ["“", "”"],
+            ["(", ")"],
+            ["（", "）"],
+            ["｟", "｠"],
+            ["[", "]"],
+            ["［", "］"],
+            ["〚", "〛"],
+            ["〔", "〕"],
+            ["{", "}"],
+            ["｛", "｝"],
+            ["〈", "〉"],
+            ["《", "》"],
+            ["「", "」"],
+            ["『", "』"],
+            ["【", "】"],
+            ["〖", "〗"],
+            ["〝", "〟"]
         ],
-
         //下記の記号にハイライトがつかないようにする（全角カンマ『，』などをハイライトしたい場合はその部分を削除すること）
         "editor.unicodeHighlight.ambiguousCharacters": true,
         "editor.unicodeHighlight.allowedCharacters": {
-            "゠": true, "，": true, "；": true, "：": true, "！": true, "？": true, "．": true, "‘": true, "’": true, "（": true, "）": true, "［": true, "］": true, "｛": true, "｝": true, "〔": true, "〕": true, "＜": true, "＞": true, "ノ": true,
-        },
+            "゠": true,
+            "，": true,
+            "；": true,
+            "：": true,
+            "！": true,
+            "？": true,
+            "．": true,
+            "‘": true,
+            "’": true,
+            "（": true,
+            "）": true,
+            "［": true,
+            "］": true,
+            "｛": true,
+            "｝": true,
+            "〔": true,
+            "〕": true,
+            "＜": true,
+            "＞": true,
+            "ノ": true
+        }
     }
 }
 ```
