@@ -27,16 +27,13 @@
 ```
 {
     "editor.formatOnSave": true,
-    // ファイル保存時の実行「レシピ」
     "latex-workshop.latex.recipe.default": "latexmk",
     "latex-workshop.latex.recipes": [
         {
-            // latexmkを叩くだけのレシピ
             "name": "latexmk",
             "tools": ["latexmk"]
         }
     ],
-    // レシピに使われるパーツ
     "latex-workshop.latex.tools": [
         {
             "name": "latexmk",
@@ -47,7 +44,7 @@
             ]
         }
     ],
-    // あとはお好みで
+    // 残りは任意（詳細は各自ググってください）
     "latex-workshop.intellisense.package.enabled": true,
     "latex-workshop.latex.outDir": "",
     "latex-workshop.view.pdf.viewer": "tab",
