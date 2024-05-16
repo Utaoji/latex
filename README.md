@@ -21,6 +21,6 @@ Windows上で行う作業です。すでにVScodeを使っている人はスキ�
 
 [setting.jsonの設定](./install/json.md)
 ## さらに高速化（任意）
-[subfilesを用いてファイル自体を短く](./install/subfiles.md)
-
 [draftを用いて図を省略](./install/draft.md)
+
+[subfilesを用いてファイル自体を短く](./install/subfiles.md)
