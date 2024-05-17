@@ -1,7 +1,5 @@
 # Settings.jsonの設定
-これも[ただしい高速LaTeX論](https://qiita.com/JyJyJcr/items/69769c88eea9d0dae152#latex-workshop%E3%81%AE%E8%A8%AD%E5%AE%9A)を参照します。
-
-また、日本語文書用設定は[VSCode で和文を編集するときのオススメ設定](https://qiita.com/Yarakashi_Kikohshi/items/cd823b4432cf23136285)を参考にしました
+こちらは[ただしい高速LaTeX論](https://qiita.com/JyJyJcr/items/69769c88eea9d0dae152#latex-workshop%E3%81%AE%E8%A8%AD%E5%AE%9A)および[VSCode で和文を編集するときのオススメ設定](https://qiita.com/Yarakashi_Kikohshi/items/cd823b4432cf23136285)を参考にしました
 
 >[!CAUTION]
 >すでにWindows上でLaTeXを使用するためにVSCodeのSettings.jsonを編集している場合、そちらの内容によっては正常に動作しない場合があります。
