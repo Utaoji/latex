@@ -1,5 +1,5 @@
 # uplatexをwsl上で爆速実行できる環境づくり（インストールから実行まで）
-[Qiita](https://qiita.com/utaoji/items/d2a880905172440b27fe)にもあげてます。できればこっちで反応がほしい・・・
+[Qiita](https://qiita.com/utaoji/items/d2a880905172440b27fe)にもあげてます。できればQiitaの方で反応がほしい・・・
 ## WSLおよびUbuntuのインストール
 LinuxとかWSLとかUbuntuとか、何言ってるかわからないよって人はここから
 
